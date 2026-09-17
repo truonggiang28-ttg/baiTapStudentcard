@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.studentcard"
+    namespace = "com.example.myapplication"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.studentcard"
+        applicationId = "com.example.myapplication"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -17,7 +17,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     buildTypes {
         release {
             optimization {
@@ -41,3 +43,4 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
 }
+
