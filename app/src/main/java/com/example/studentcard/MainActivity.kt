@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private var currentStudent = Student(
-        id = "22505120005", name = "Nguyen Van An", className = "DD2026", email = "anv@ute.udn.vn", gpa = 3.8
+        id = "2415053122313", name = "Thai Truong Giang", className = "DD2026", email = "anv@ute.udn.vn", gpa = 3.8
     )
 
     // Chỉ sử dụng MỘT hàm onCreate duy nhất (Gộp Bước 4 và Bước 5 vào đây)
